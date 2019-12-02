@@ -86,7 +86,7 @@ const send_request = (url) => {
 	custominput.value = ''
 	status.innerHTML = 'shorten'
 	output.style.display = 'block'
-	shortenedURL.value = `https://shäd.it/${hash}`
+	shortenedURL.value = window.location.href
 	copyer('shortenedURL')
 	sucess.innerHTML = 'short url copied to clipboard'
 	qr.innerHTML = createFrame(`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${shortenedURL.value}`)
