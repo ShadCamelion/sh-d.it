@@ -2,16 +2,16 @@
 
 return [
     /* This is a secure key that only you should know, an added layer of security for the image upload */
-    'secure_key' => 'somerandomlongstringoftextforkey',
+    'secure_key' => '25na4wrtedtaetgreh677i8dfvcbxf,.-tztjh',
 
     /* This is the url your output will be, usually http://www.domain.com/u/, also going to this url will be the gallery page */
-    'output_url' => 'http://sharex/u/',
+    'output_url' => 'http://skiddle.it/u/',
 
     /* This request url, so the path pointing to the uplaod.php file */
-    'request_url' => 'http://sharex/upload.php',
+    'request_url' => 'http://skiddle.it/upload.php',
 
     /* This is a redirect url if the script is accessed directly */
-    'redirect_url' => 'http://sharex/',
+    'redirect_url' => 'http://skiddle.it/',
 
     /* This is a list of IPs that can access the gallery page (Leave empty for universal access) */
     'allowed_ips' => ['127.0.0.1', '::1', '0.0.0.0'],
